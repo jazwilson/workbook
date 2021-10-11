@@ -6,3 +6,4 @@ Working through courses/workshops and other learning materials.
 
 > Wk_2: [Learning linear regression](https://github.com/jazwilson/workbook/blob/main/mlzoomcamp/wk02/wk02_hw.ipynb)  <br />
 > Wk_3: [Machine Learning for Classification](https://github.com/jazwilson/workbook/blob/main/mlzoomcamp/wk03/wk03_hw.ipynb)  <br />
+> Wk_3: [Machine Learning evaluation](https://github.com/jazwilson/workbook/blob/main/mlzoomcamp/wk04/wk04.ipynb)  <br />
