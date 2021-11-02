@@ -10,31 +10,33 @@ To effectively cater to this growing market base, we need to understand what fac
 ## To set up the environment
 
 #### Using pipenv, run: 
-pipenv install pipenv shell
+> pipenv install 
+> pipenv shell
 
 ## Docker Setup
 
-#### To install Docker click [here](https://github.com/jazwilson/workbook/blob/main/mlzoomcamp/wk07_midterm_project/Dockerfile) 
-run:    docker build -t boardgame-rating-prediction
+#### To install Docker click [here](https://github.com/jazwilson/workbook/blob/main/mlzoomcamp/wk07_midterm_project/Dockerfile) and run: 
+> docker build -t boardgame-rating-prediction
 
 #### To run the Docker instance: 
 
-docker run -it -p 9696:9696 boardgame-rating-prediction:latest
+> docker run -it -p 9696:9696 boardgame-rating-prediction:latest
 
 ## Deployment: AWS Elastic Beanstalk Deploy
 
 #### To deploy eb app run (after pipenv shell)
 #### Note: Replace us-west-1 with your closest/cheapest server 
-eb init -p docker -r us-west-1 rating-serving
+> eb init -p docker -r us-west-1 rating-serving
 
 #### To test locally you can run: 
 
-eb local run --port 9696
+> eb local run --port 9696
 
 #### To run a gameboard score prediction in another terminal window: 
 
-pipenv shell python predict-test.py
+> pipenv shell 
+> python predict-test.py
 
 #### To deploy on aws run
 
-eb create rating-serving-env
+> eb create rating-serving-env
