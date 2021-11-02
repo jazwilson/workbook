@@ -10,7 +10,8 @@ To effectively cater to this growing market base, we need to understand what fac
 ## To set up the environment
 
 #### Using pipenv, run: 
-> pipenv install pipenv shell
+> pipenv install 
+> pipenv shell
 
 ## Docker Setup
 
@@ -33,7 +34,8 @@ To effectively cater to this growing market base, we need to understand what fac
 
 #### To run a gameboard score prediction in another terminal window: 
 
-> pipenv shell python predict-test.py
+> pipenv shell 
+> python predict-test.py
 
 #### To deploy on aws run
 
