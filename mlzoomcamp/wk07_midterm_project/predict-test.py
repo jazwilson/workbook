@@ -1,6 +1,6 @@
 import requests
 
-host = 'localhost:9696'
+host = 'rating-serving-env.eba-drd5pjpn.us-west-1.elasticbeanstalk.com'
 url = f'http://{host}/predict'
 
 boardgame = {
