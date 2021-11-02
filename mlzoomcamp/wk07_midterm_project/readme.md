@@ -14,8 +14,8 @@ To effectively cater to this growing market base, we need to understand what fac
 
 ## Docker Setup
 
-#### To install Docker click [here](https://github.com/jazwilson/workbook/blob/main/mlzoomcamp/wk07_midterm_project/Dockerfile) 
-> run:    docker build -t boardgame-rating-prediction
+#### To install Docker click [here](https://github.com/jazwilson/workbook/blob/main/mlzoomcamp/wk07_midterm_project/Dockerfile) and run: 
+> docker build -t boardgame-rating-prediction
 
 #### To run the Docker instance: 
 
