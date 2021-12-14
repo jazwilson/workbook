@@ -16,7 +16,7 @@ To install pipenv:
 
 ## Model training
 
-Open [notebook.ipynb](https://github.com/jazwilson/workbook/blob/main/mlzoomcamp/capstone_project/notebook.ipynb)for EDA and model tuning
+Open [notebook.ipynb](https://github.com/jazwilson/workbook/blob/main/mlzoomcamp/capstone_project/notebook.ipynb) for EDA and model tuning
 
 To train the final model use: [train.py](https://github.com/jazwilson/workbook/blob/main/mlzoomcamp/capstone_project/train.py) by running 
 
