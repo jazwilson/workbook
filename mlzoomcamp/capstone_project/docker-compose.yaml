@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  vaccination-model:
+    image: vaccination-model:v001
+  gateway:
+    image: vaccination-gateway:v001
+    environment:
+      - TF_SERVING_HOST=vaccination-model:8500
+    ports:
+      - "9696:9696"

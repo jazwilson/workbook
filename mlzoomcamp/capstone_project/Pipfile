@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+gunicorn = "*"
+requests = "*"
+pandas = "*"
+grpcio = "==1.42.0"
+tensorflow-protobuf = "==2.7.0"
+scikit-learn = "*"
+protobuf3-to-dict = "*"
+
+[dev-packages]
+awsebcli = "*"
+wordcloud = "*"
+jupyter = "*"
+matplotlib = "*"
+seaborn = "*"
+tensorflow = "*"
+tensorflow-serving-api = "==2.7.0"
+
+[requires]
+python_version = "3.9"

@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tf-serving-vaccination-model
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tf-serving-vaccination-model
+  template:
+    metadata:
+      labels:
+        app: tf-serving-vaccination-model
+    spec:
+      containers:
+      - name: tf-serving-vaccination-model
+        image: vaccination-model:v001
+        resources:
+          limits:
+            memory: "1024Mi"
+            cpu: "0.5"
+        ports:
+        - containerPort: 8500
