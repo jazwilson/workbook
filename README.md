@@ -1,8 +1,9 @@
-# workbook
-Working through courses/workshops and other learning materials.
+## workbook
+Working through courses/workshops and other learning projects
 
-## Currently on the menu: 
-### Machine Learning with DataTalksClub's MLzoomcamp with Alexey Grigorev 
+### Projects and courses included:
+
+#### 2021-2022 Machine Learning with DataTalksClub's MLzoomcamp with Alexey Grigorev 
 
 > Wk_2: [Learning linear regression](https://github.com/jazwilson/workbook/blob/main/mlzoomcamp/wk02/wk02_hw.ipynb)  <br />
 > Wk_3: [Machine Learning for Classification](https://github.com/jazwilson/workbook/blob/main/mlzoomcamp/wk03/wk03_hw.ipynb)  <br />
@@ -13,3 +14,6 @@ Working through courses/workshops and other learning materials.
 > Capstone: [Project: Predicting school vaccination rates](https://github.com/jazwilson/workbook/tree/main/mlzoomcamp/capstone_project)  <br />
 
 
+#### SQL project workbook
+
+> 1: [SQL_basics_python](https://github.com/jazwilson/workbook/tree/main/SQL/SQL_basics_banana_bread) to perfect a banana bread recipe  <br />
