@@ -10,3 +10,6 @@ Working through courses/workshops and other learning materials.
 > Wk_5: [Deploying Machine Learning Models](https://github.com/jazwilson/workbook/tree/main/mlzoomcamp/wk05)  <br />
 > Wk_6: [Decision Trees and Ensemble Learning](https://github.com/jazwilson/workbook/blob/main/mlzoomcamp/wk06/wk06_hw.ipynb)  <br />
 > Wk_7: [Mid-term project: Predicting boardgame ratings](https://github.com/jazwilson/workbook/tree/main/mlzoomcamp/wk07_midterm_project)  <br />
+> Capstone: [Project: Predicting school vaccination rates](https://github.com/jazwilson/workbook/tree/main/mlzoomcamp/capstone_project)  <br />
+
+
